@@ -5,6 +5,6 @@ services:
     container_name: threatdragon
     image: owasp/threat-dragon:v2.0.8
     ports:
-      - "8080:8080"
+      - "8080:808"
     volumes:
       - "./config.env:/app/.env"
