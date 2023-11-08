@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Docker Test",
+      "setup": "chmod +x test/validateDockerComposeSetUp.sh",
+      "run": ".test/validateDockerComposeSetUp.sh",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
